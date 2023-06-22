@@ -7,7 +7,7 @@ console.log("Hello, world!");
 //   alert('You clicked the header!');
 // });
 
-fetch('https://api.example.com/data')
+fetch('https://www.minopcloud.com/PayTime/LoginPage')
   .then(function (response) {
     if (response.ok) {
       return response.json();
