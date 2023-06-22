@@ -8,3 +8,8 @@ header.addEventListener('click', function() {
  window.location.href = 'https://www.minopcloud.com/PayTime/EmployeeDashboard';
 });
 
+var p = document.querySelector('header');
+p.addEventListener('click', function() {
+ //alert('You clicked the header!');
+ window.location.href = 'https://www.minopcloud.com';
+});
