@@ -8,8 +8,15 @@ header.addEventListener('click', function() {
  window.location.href = 'https://www.minopcloud.com/PayTime/EmployeeDashboard';
 });
 
-var p = document.querySelector('li');
-p.addEventListener('click', function() {
- //alert('You clicked the header!');
- window.location.href = 'https://www.minopcloud.com';
-});
+// Get the project list items by their IDs
+  var project1 = document.getElementById('project1');
+  var project2 = document.getElementById('project2');
+
+  // Add event listeners to each project item
+  project1.addEventListener('click', function() {
+    window.location.href = 'https://crccalc.com';
+  });
+
+  project2.addEventListener('click', function() {
+    window.location.href = 'https://www.fileformat.info/tool/hash.htm';
+  });
