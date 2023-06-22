@@ -1,33 +1,3 @@
-/* body {
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  h1, h2 {
-    color: #333;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  #projects li {
-    margin-bottom: 5px;
-  }
-  
-  #contact p {
-    margin-top: 0;
-  }
-   */
 body {
   font-family: Arial, sans-serif;
 }
@@ -36,40 +6,53 @@ header {
   background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
-  font-size: 24px;
 }
 
 section {
   margin-bottom: 20px;
-  padding: 20px;
-  background-color: #fff;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   color: #333;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
 }
 
 #projects li {
-  margin-bottom: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#projects li:hover {
-  background-color: #f1f1f1;
+  margin-bottom: 5px;
 }
 
 #contact p {
   margin-top: 0;
 }
 
-@media (max-width: 768px) {
-  header {
-    font-size: 20px;
-  }
+#career-objective p,
+#field-of-interest p {
+  margin-bottom: 10px;
+}
+
+#strengths ul {
+  margin-left: 20px;
+}
+
+#education li {
+  margin-bottom: 10px;
+}
+
+#projects ul ul {
+  margin-left: 20px;
+}
+
+#projects h3 {
+  margin-bottom: 5px;
+}
+
+#internship li {
+  margin-bottom: 10px;
+}
+
+#technical-expertise ul {
+  margin-left: 20px;
 }
