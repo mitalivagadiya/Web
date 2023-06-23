@@ -7,9 +7,20 @@ body {
 }
 
 header {
-  background-color: #f1f1f1;
+  background-color: #333;
   padding: 20px;
   text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 0;
 }
 
 h1, h2, h3, h4 {
