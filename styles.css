@@ -11,7 +11,7 @@ h1, h2, h3, h4 {
 /* Header */
 
 header {
-  background-color: #e2c4df;
+  background-color: #c4d6e2;
   padding: 20px;
   text-align: center;
   display: flex;
@@ -83,7 +83,7 @@ header:hover {
 }
 
 .navigation li a:hover, .dropdown:hover .dropbtn {
-  background-color: #e2c4df;
+  background-color: #c4d6e2;
 }
 
 .dropdown-content {
@@ -118,7 +118,7 @@ section {
   margin-bottom: 10px;
   padding: 20px;
   /*background-color: #f9f9f9;*/
-  background: linear-gradient(to bottom, #f1f1f1, #e6d9e4);
+  background: linear-gradient(to bottom, #f1f1f1, #c4d6e2);
   border-radius: 5px;
   /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
 }
@@ -152,7 +152,7 @@ section h4 {
 }
 
 section#contact-form {
-  background: linear-gradient(to bottom, #f1f1f1, #e6d9e4);
+  background: linear-gradient(to bottom, #f1f1f1, #c4d6e2);
 }
 
 section#contact-form h2 {
